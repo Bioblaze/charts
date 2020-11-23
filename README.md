@@ -3,10 +3,10 @@
 ```bash
 $ helm repo add bioblaze 'https://Bioblaze.github.io/charts'
 $ helm repo update
-$ helm search bioblaze
-NAME            	VERSION	DESCRIPTION
-bioblaze/diagnostics     0.0.1  	A Diagnostic Helm chart for Kubernetes
-bioblaze/metrics-server  0.0.1      The Metrics Helm chart for Kubernetes
+$ helm search repo bioblaze
+NAME                    CHART VERSION   APP VERSION     DESCRIPTION
+bioblaze/diagnostics    0.1.0           0.1.0           A Diagnostic Helm chart for Kubernetes
+bioblaze/metrics-server 0.1.0           0.4.1           The Metrics Helm chart for Kubernetes
 ```
 # Information
 
