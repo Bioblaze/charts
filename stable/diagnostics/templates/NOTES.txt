@@ -1,0 +1,7 @@
+Use k9s to shell into the Container.
+
+I could provide Commands here to simplify the process but I do not know them 100%.
+
+So I am choosing not to.
+
+Enjoy.
