@@ -3,128 +3,116 @@ entries:
   awsauth:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-25T12:13:26.4130056-08:00"
+    created: "2020-11-25T12:26:33.0201921-08:00"
     description: A Helm chart setting up configmap for AWS in Kubernetes
-    digest: 3020a73a1b1c2a4d9dcfac588441e0575a1a73f49f2106315c47e6b892022a28
+    digest: 504d8518e8a1e954b2b33b3dcbfcd34bc55178999438d1b6c8ad2f306c259d86
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
       url: https://github.com/Bioblaze
     name: awsauth
-    sources:
-    - https://github.com/Bioblaze/charts
     type: application
     urls:
-    - awsauth-0.1.0.tgz
+    - stable/awsauth-0.1.0.tgz
     version: 0.1.0
   awsxdns:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-25T12:13:26.4169178-08:00"
+    created: "2020-11-25T12:26:33.0256751-08:00"
     description: External-dns Helm Chart for AWS
-    digest: 481cc5f8d5180eaf69869602532a1aa7fbf532d813edfb104d1fe86b7889d0a6
+    digest: f525cc5f102c248e6c8ce0c5eb1da7b8313cd42a6d8cbe0878cd63f6c2a4d918
     home: https://github.com/Bioblaze/charts
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
       url: https://github.com/Bioblaze
     name: awsxdns
-    sources:
-    - https://github.com/Bioblaze/charts
     type: application
     urls:
-    - awsxdns-0.1.0.tgz
+    - stable/awsxdns-0.1.0.tgz
     version: 0.1.0
   diagnostics:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-25T12:13:26.4206693-08:00"
+    created: "2020-11-25T12:26:33.0306937-08:00"
     description: A Diagnostic Helm chart for Kubernetes
-    digest: 480d0c01694a139447c4e78b32cfc97b40b58d2f2236efe2114f9f57f9b201b1
+    digest: 2ae394ea82f2158fdf0a09e6a85bbecc567d1cfbfeee2b9b2a43bc42ae5e28fd
     home: https://github.com/Bioblaze/charts
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
       url: https://github.com/Bioblaze
     name: diagnostics
-    sources:
-    - https://github.com/Bioblaze/diagnostic-container
     type: application
     urls:
-    - diagnostics-0.1.0.tgz
+    - stable/diagnostics-0.1.0.tgz
     version: 0.1.0
   gitlab:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-25T12:13:26.4247267-08:00"
+    created: "2020-11-25T12:26:33.0355656-08:00"
     description: A Helm chart for base gitlab requirements for auto devops in Kubernetes
-    digest: af09ea42ce74f842cb73f51e948012be3d120560c574179050cf760752ace5ca
+    digest: c0c5b01ef5cb2ea9739fb65df9dbe40f5cfba7efdfeccb7fa2c3eef030dbaf9a
     home: https://github.com/Bioblaze/charts
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
       url: https://github.com/Bioblaze
     name: gitlab
-    sources:
-    - https://github.com/Bioblaze/charts
     type: application
     urls:
-    - gitlab-0.1.0.tgz
+    - stable/gitlab-0.1.0.tgz
     version: 0.1.0
   k9s:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-25T12:13:26.4289343-08:00"
+    created: "2020-11-25T12:26:33.0410691-08:00"
     description: A Helm chart for k9s intergration in Kubernetes
-    digest: cca00ccedb013aef64b02b87c2c86f60813bb7a5bde792f2cc2771e7a48a2a90
+    digest: 9fd6d2e7b31688e23ca35a32206b2fcb80d10015ffe55edc6ee4ca875e4ffee5
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
       url: https://github.com/Bioblaze
     name: k9s
-    sources:
-    - https://github.com/Bioblaze/charts
     type: application
     urls:
-    - k9s-0.1.0.tgz
+    - stable/k9s-0.1.0.tgz
     version: 0.1.0
   metrics-server:
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2020-11-25T12:13:26.4330214-08:00"
+    created: "2020-11-25T12:26:33.0461555-08:00"
     description: The Metrics Helm chart for Kubernetes
-    digest: b9ff0ccd8cdbfd425e86e63c36e1ee5bd5c7cc84e47cc7cc9e49873fa41d9329
+    digest: 07b5c3949163b8d3aa1ee8a367c9ec3dd5205fd92aa08d4e91a7c940b47e1611
     name: metrics-server
     sources:
     - https://github.com/kubernetes-sigs/metrics-server/
     type: application
     urls:
-    - metrics-server-0.1.0.tgz
+    - stable/metrics-server-0.1.0.tgz
     version: 0.1.0
   vault-setup:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-25T12:13:26.4367245-08:00"
+    created: "2020-11-25T12:26:33.0511668-08:00"
     description: A Helm chart for setting up the base for vault in Kubernetes
-    digest: 09d92351b8791d184948653b2fd96082b05f220526fead816b3010a21892e3d8
+    digest: 522b34fa068aa79c4468b70de7929c2f41d7017f48ade4001c9ac750b2d322ce
     home: https://github.com/Bioblaze/charts
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
       url: https://github.com/Bioblaze
     name: vault-setup
-    sources:
-    - https://github.com/Bioblaze/charts
     type: application
     urls:
-    - vault-setup-0.1.0.tgz
+    - stable/vault-setup-0.1.0.tgz
     version: 0.1.0
   xservice:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-25T12:13:26.4404165-08:00"
+    created: "2020-11-25T12:26:33.056236-08:00"
     description: A Helm chart for adding a external-service in Kubernetes
-    digest: 0dc928e40dc316465082e26dfdfeedc4e463d47503e82d7170355a0f0df39f3e
+    digest: 74530b9413573036a07c23f555d751d62d56c9ac9f08315e6c3e37e2ed6cee9d
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
@@ -134,6 +122,6 @@ entries:
     - https://github.com/Bioblaze/charts
     type: application
     urls:
-    - xservice-0.1.0.tgz
+    - stable/xservice-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-25T12:13:26.4090609-08:00"
+generated: "2020-11-25T12:26:33.0146983-08:00"
