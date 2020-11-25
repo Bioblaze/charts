@@ -11,11 +11,7 @@ bioblaze/metrics-server 0.1.0           0.4.1           The Metrics Helm chart f
 # Information
 
 ## Current Helm Charts
-* Count: 2
-
-## Todo
-* Add User Service Helm Chart
-* Add Server Service Helm Chart
+* Count: 8
 
 ## Commands
 * helm package -d stable ./stable/<package>/

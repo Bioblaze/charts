@@ -1,0 +1,9 @@
+# Default values for awsxdns.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+xdnsarn: 
+policy: upsert-only
+zoneid:
+zonetype: public
+
