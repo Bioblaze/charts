@@ -4,6 +4,7 @@
 
 xdnsarn: 
 policy: upsert-only
-zoneid:
+zoneid: 
 zonetype: public
+domain: 
 
