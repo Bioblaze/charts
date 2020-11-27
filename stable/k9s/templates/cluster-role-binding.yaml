@@ -5,7 +5,7 @@ metadata:
 subjects: |
   {{- range .Values.users}}
   - kind: User
-    name: {{ . -}}
+    name: {{ . }}
     apiGroup: rbac.authorization.k8s.io
   {{ end }}
 roleRef:
