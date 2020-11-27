@@ -11,9 +11,12 @@ data:
         - system:bootstrappers
         - system:nodes
   mapUsers: |
-    {{- range .Values.users}}
-    - userarn: arn:aws:iam::{{ $.Values.accnum }}:user/{{ . }}
-      username: {{ . }}
+    {{- range .Values.users }}
+    {{- $user := . -}}
+    {{- with $ }}
+    - userarn: arn:aws:iam::{{ .Values.accnum }}:user/{{ $user }}
+      username: {{ $user }}
       groups:
         - system:masters
-    {{ end }}
+    {{- end }}
+    {{- end }}

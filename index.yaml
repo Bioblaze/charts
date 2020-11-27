@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   awsauth:
   - apiVersion: v2
-    appVersion: 0.2.5
-    created: "2020-11-26T17:48:07.5070615-08:00"
+    appVersion: 0.2.7
+    created: "2020-11-26T17:57:00.7346904-08:00"
     description: A Helm chart setting up configmap for AWS in Kubernetes
-    digest: a796976c0c6c1e6de19e7ae52abdf960389ad281886c83b06add6db634d4573d
+    digest: 41eaf4b6d5d881af0ae4e27f1089fc6c0e923241ff12c2dbbffeb3ceab09ec1f
     maintainers:
     - email: bioblazepayne@gmail.com
       name: Randolph Aarseth II (Bioblaze Payne)
@@ -18,7 +18,7 @@ entries:
   awsxdns:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-26T17:48:07.5125693-08:00"
+    created: "2020-11-26T17:57:00.7395022-08:00"
     description: External-dns Helm Chart for AWS
     digest: f525cc5f102c248e6c8ce0c5eb1da7b8313cd42a6d8cbe0878cd63f6c2a4d918
     home: https://github.com/Bioblaze/charts
@@ -34,7 +34,7 @@ entries:
   diagnostics:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-26T17:48:07.5175755-08:00"
+    created: "2020-11-26T17:57:00.7444408-08:00"
     description: A Diagnostic Helm chart for Kubernetes
     digest: 2ae394ea82f2158fdf0a09e6a85bbecc567d1cfbfeee2b9b2a43bc42ae5e28fd
     home: https://github.com/Bioblaze/charts
@@ -50,7 +50,7 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-26T17:48:07.5226264-08:00"
+    created: "2020-11-26T17:57:00.7491497-08:00"
     description: A Helm chart for base gitlab requirements for auto devops in Kubernetes
     digest: c0c5b01ef5cb2ea9739fb65df9dbe40f5cfba7efdfeccb7fa2c3eef030dbaf9a
     home: https://github.com/Bioblaze/charts
@@ -66,7 +66,7 @@ entries:
   k9s:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-26T17:48:07.5277432-08:00"
+    created: "2020-11-26T17:57:00.7547695-08:00"
     description: A Helm chart for k9s intergration in Kubernetes
     digest: 9fd6d2e7b31688e23ca35a32206b2fcb80d10015ffe55edc6ee4ca875e4ffee5
     maintainers:
@@ -81,7 +81,7 @@ entries:
   metrics-server:
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2020-11-26T17:48:07.5328749-08:00"
+    created: "2020-11-26T17:57:00.7595496-08:00"
     description: The Metrics Helm chart for Kubernetes
     digest: 07b5c3949163b8d3aa1ee8a367c9ec3dd5205fd92aa08d4e91a7c940b47e1611
     name: metrics-server
@@ -94,7 +94,7 @@ entries:
   vault-setup:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-26T17:48:07.5376564-08:00"
+    created: "2020-11-26T17:57:00.7644353-08:00"
     description: A Helm chart for setting up the base for vault in Kubernetes
     digest: 522b34fa068aa79c4468b70de7929c2f41d7017f48ade4001c9ac750b2d322ce
     home: https://github.com/Bioblaze/charts
@@ -110,7 +110,7 @@ entries:
   xservice:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-11-26T17:48:07.5425612-08:00"
+    created: "2020-11-26T17:57:00.7695335-08:00"
     description: A Helm chart for adding a external-service in Kubernetes
     digest: 74530b9413573036a07c23f555d751d62d56c9ac9f08315e6c3e37e2ed6cee9d
     maintainers:
@@ -124,4 +124,4 @@ entries:
     urls:
     - stable/xservice-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-26T17:48:07.5019576-08:00"
+generated: "2020-11-26T17:57:00.7296741-08:00"
