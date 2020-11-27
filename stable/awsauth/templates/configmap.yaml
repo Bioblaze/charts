@@ -12,8 +12,8 @@ data:
         - system:nodes
   mapUsers: |
     {{- range .Values.users}}
-    - userarn: arn:aws:iam::{{ .Values.accnum }}:user/{{ . -}}
-      username: {{ . -}}
+    - userarn: arn:aws:iam::{{ $.Values.accnum }}:user/{{ . }}
+      username: {{ . }}
       groups:
         - system:masters
     {{ end }}
