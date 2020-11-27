@@ -4,4 +4,4 @@ metadata:
   name: {{ .Values.name }}
 spec:
   type: ExternalName
-  externalName: {{ .Values.domain }}
+  externalName: {{ .Values.endpoint }}
